@@ -1,4 +1,16 @@
 <?php
+    
+    //added during hosting jemduk
+
+    $url = parse_url(getenv("DATABASE_URL"));
+
+    $host = $url["host"];
+    $username = $url["user"];
+    $port = $url["port"];
+    $password = $url["pass"];
+    $database = substr($url["path"], 1);
+
+     //added during hosting jemduk
 
 return [
 
@@ -13,7 +25,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => 'pgsql',
 
     /*
     |--------------------------------------------------------------------------
