@@ -35,7 +35,7 @@ class AuthenticationController extends Controller
         }else{
                 Sentinel::login($user);
             try {
-                if (Sentinel::getUser()->roles->first()->slug == 'superadmin') {
+                if (Sentinel::getUser()->roles()->first()->slug == 'superadmin') {
                     Sentinel::loginAndRemember($user);                   
                     return redirect()->route('superadmin_dash');
                 }else if (Sentinel::getUser()->roles()->first()->slug == 'admin') {                    

@@ -44,11 +44,11 @@ class EloquentUserRepository implements UserContract
             'agent_number' => $newagent,
         ];
         
-        // $user_role=$request->user_role;
+        $user_role=$request->status;
         // dd($user_role);
         $user = Sentinel::registerAndActivate($credentials);
-        // $role = Sentinel::findRoleBySlug($user_role);
-        // $role->users()->attach($user);
+        $role = Sentinel::findRoleBySlug($user_role);
+        $role->users()->attach($user);
         // dd($user);
         return $user;
 	}
