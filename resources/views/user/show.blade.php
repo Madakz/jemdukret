@@ -69,13 +69,13 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-md-12">
+                                <!-- <div class="col-md-12">
                                     <div class="form-group">
                                         <a data-toggle="modal" data-target="#modal_delete_{{$users->id}}" id="delete-bu-btn" style="cursor:pointer;">
                                             <button type="submit" class="btn btn-danger btn-md"><i class="menu-icon zmdi zmdi-delete zmdi-hc"></i> Delete Profile</button> 
                                         </a>
                                     </div>
-                                </div> 
+                                </div> --> 
                                 <?php if(Sentinel::getUser()->id == $users->id){
                                     $id=Sentinel::getUser()->id;
                                 ?>

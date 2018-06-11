@@ -108,8 +108,8 @@
                                     <div class="modal-body">
                                         <div class="modal-body">
                                             <a href="{{ route('create_house_from_landlord', $landlords->id)}}" class="btn btn-fill btn-success float-left"><i class="menu-icon zmdi zmdi-delete zmdi-hc"></i> Add House</a>
-                                            <a href="{{ route('create_land_from_landlord', $landlords->id)}}" class="btn btn-fill btn-primary relative"><i class="menu-icon zmdi zmdi-delete zmdi-hc"></i> Add Land</a>
-                                            <a href="{{ route('create_shop_from_landlord', $landlords->id)}}" class="btn btn-fill btn-success relative"><i class="menu-icon zmdi zmdi-delete zmdi-hc"></i> Add Shop</a>
+                                            <!-- <a href="{{ route('create_land_from_landlord', $landlords->id)}}" class="btn btn-fill btn-primary relative"><i class="menu-icon zmdi zmdi-delete zmdi-hc"></i> Add Land</a>
+                                            <a href="{{ route('create_shop_from_landlord', $landlords->id)}}" class="btn btn-fill btn-success relative"><i class="menu-icon zmdi zmdi-delete zmdi-hc"></i> Add Shop</a> -->
                                             <!-- <p class="s-text">Remove Landlord from your list of Landlord? </br><span class="p-text">This cannot be undone.</span></p> -->
                                             <!-- <p class="s-text"><span><a href="{{ route('delete_landlord', $landlords->id)}}" class="btn btn-fill btn-danger relative"><i class="menu-icon zmdi zmdi-delete zmdi-hc"></i> Delete</a></span>&nbsp;<span><a href="{{ route('delete_landlord', $landlords->id)}}" class="btn btn-fill btn-danger pull-right"><i class="menu-icon zmdi zmdi-delete zmdi-hc"></i> Delete</a></span><span><a href="{{ route('delete_landlord', $landlords->id)}}" class="btn btn-fill btn-danger pull-right"><i class="menu-icon zmdi zmdi-delete zmdi-hc"></i> Delete</a></span></p> -->
                                     

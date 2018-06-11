@@ -57,17 +57,7 @@
                         <a href="{{ route('house_index') }}">
                             <span class="menu-text">Houses</span>
                         </a>
-                    </li>
-                    <li>
-                        <a href="{{ route('land_index') }}">
-                            <span class="menu-text">Lands</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ route('shop_index') }}">
-                            <span class="menu-text">Shops</span>
-                        </a>
-                    </li>
+                    </li>                    
                 </ul>
             </li>
             <li class="menu-separator"><hr></li>
@@ -78,8 +68,8 @@
 
 
 
-		@if(session('currentUserRole') == 'admin')
-			<ul class="nav">
+        @if(session('currentUserRole') == 'admin')
+            <ul class="nav">
                 <li>
                     <a href="{{ route('invDetails_index') }}">
                         <i class="pe-7s-display1"></i>
@@ -93,4 +83,4 @@
                     </a>
                 </li>
             </ul>
-		@endif
+        @endif

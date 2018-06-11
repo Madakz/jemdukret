@@ -5,51 +5,51 @@
 @stop
 
 @section('content')
-	<style>
-    	div.panel.panel-primary {
-    		border-color: #188ae2;
-    		background-color: #188ae2;
-		}
-		div.panel.panel-ash {
-    		border-color: #8594A3;
-    		background-color: #8594A3;
-		}
-		div.panel.panel-green {
-    		border-color: #78b83e;
-    		background-color: #78b83e;
-		}
-		div .panel {
-		    margin-bottom: 20px;
-		    /*background-color: #fff;*/
-		    border: 1px solid transparent;
-		    border-radius: 4px;
-		    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
-		    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.12);
-		}
-		div .panel .panel-heading {
-			color: #fff;
-		    padding: 10px 15px;
-		    border-bottom: 1px solid transparent;
-		    border-top-left-radius: 3px;
-		    border-top-right-radius: 3px;
-		}
-		.text-right {
-		    text-align: right;
-		}
-		div .huge {
-		    font-size: 40px;
-		}
-		div .panel-footer {
-		    padding: 10px 15px;
-		    background-color: #f5f5f5;
-		    border-top: 1px solid #ddd;
-		    border-bottom-right-radius: 3px;
-		    border-bottom-left-radius: 3px;
-		}
+    <style>
+        div.panel.panel-primary {
+            border-color: #188ae2;
+            background-color: #188ae2;
+        }
+        div.panel.panel-ash {
+            border-color: #8594A3;
+            background-color: #8594A3;
+        }
+        div.panel.panel-green {
+            border-color: #78b83e;
+            background-color: #78b83e;
+        }
+        div .panel {
+            margin-bottom: 20px;
+            /*background-color: #fff;*/
+            border: 1px solid transparent;
+            border-radius: 4px;
+            -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+            box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.2),0 1px 5px 0 rgba(0,0,0,0.12);
+        }
+        div .panel .panel-heading {
+            color: #fff;
+            padding: 10px 15px;
+            border-bottom: 1px solid transparent;
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+        }
+        .text-right {
+            text-align: right;
+        }
+        div .huge {
+            font-size: 40px;
+        }
+        div .panel-footer {
+            padding: 10px 15px;
+            background-color: #f5f5f5;
+            border-top: 1px solid #ddd;
+            border-bottom-right-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
 
-	</style>
-	<div class="col-md-12">
-    	<h1>Agent Dashboard</h1>
+    </style>
+    <div class="col-md-12">
+        <h1>Agent Dashboard</h1>
     </div>
 
     <div class="col-lg-4 col-md-col-md-4 col-sm-6 col-xs-12">
@@ -98,7 +98,7 @@
         </div>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+    <!-- <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="panel panel-primary">
             <div class="panel-heading">
                 <div class="row">
@@ -142,7 +142,7 @@
                 </div>
             </a>
         </div>
-    </div>
+    </div> -->
 
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <div class="panel panel-green">
